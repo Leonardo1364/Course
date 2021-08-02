@@ -8,6 +8,8 @@ public class CurrencyConverter {
         return dollarPrice * amount * (1.0 + IOF);
     }
 
-
-
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
