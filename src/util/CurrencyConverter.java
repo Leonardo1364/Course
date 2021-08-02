@@ -15,4 +15,9 @@ public class CurrencyConverter {
     public static void setIOF(double IOF) {
         CurrencyConverter.IOF = IOF;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
