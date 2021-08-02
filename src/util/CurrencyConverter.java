@@ -8,6 +8,11 @@ public class CurrencyConverter {
         return dollarPrice * amount * (1.0 + IOF);
     }
 
+    public static double getIOF() {
+        return IOF;
+    }
 
-
+    public static void setIOF(double IOF) {
+        CurrencyConverter.IOF = IOF;
+    }
 }
