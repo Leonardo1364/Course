@@ -12,4 +12,9 @@ public class CurrencyConverter {
     public boolean equals(Object obj) {
         return super.equals(obj);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
