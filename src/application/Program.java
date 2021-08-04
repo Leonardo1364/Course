@@ -19,6 +19,8 @@ public class Program {
         double result = CurrencyConverter.dollarToReal(amount, dollarProce);
         System.out.printf("Amount to be paid in reais = %.2f", result);
 
+        System.out.println("lorem");
+
         sc.close();
     }
 }
